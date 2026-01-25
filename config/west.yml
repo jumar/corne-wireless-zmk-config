@@ -4,8 +4,8 @@ manifest:
       url-base: https://github.com/urob
   projects:
     - name: zmk
-      remote: urob
-      revision: main
+      remote: zmkfirmware
+      revision: v0.3
       import: app/west.yml
   self:
     path: config
